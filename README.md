@@ -9,7 +9,7 @@ One of the key technologies required is a functioning database that will interac
 
 This application employs an Express.js API that is configured with Sequelize to interact with a MySQL database. The API routes perform RESTful CRUD operations.
 
-[Walkthrough video]().
+[Walkthrough video](https://drive.google.com/file/d/1L86lsuXE5YQKUWJl2-t_xyFk8A3GbAWk/view?usp=sharing).
   
 ## Table of Contents
   
@@ -19,6 +19,7 @@ This application employs an Express.js API that is configured with Sequelize to 
 - [Credits](#credits)
 - [License](#license)
 - [Contributing](#contributing)
+- [Tests](#tests)
   
 ## Installation
 This application requires [Node.js](https://nodejs.org/en/download/), and [MySQL](https://dev.mysql.com/downloads/mysql/). Once installed, initialise the database from the command line by ```mysql -u root -p``` and enter one's MySQL password as prompted. Then enter ```source schema.sql;```.
@@ -88,6 +89,10 @@ This application is covered under the [ISC License](https://opensource.org/licen
 ## Contributing
   
 The guidelines for contributing to this application can be found at the [Contributor Covenant](https://www.contributor-covenant.org/).
+
+## Tests
+
+Test the routes from the [Usage](#usage) section in [Postman](https://www.postman.com/downloads/) or [Insomnia](https://insomnia.rest/download).
      
 ---
   
